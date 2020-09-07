@@ -1,0 +1,183 @@
+/* Designed By DevPark */
+@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Jeju Gothic", sans-serif !important;
+  -ms-overflow-style: none;
+}
+
+/* 1페이지 */
+#mp {
+  background-color: #9e4028;
+  color: white;
+  font-size: 4rem;
+}
+
+#name {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-left: 5%;
+}
+/* 1페이지 */
+
+/* 2페이지 */
+#introduce {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+#my-self {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  vertical-align: center;
+  width: 80%;
+  height: 80%;
+}
+
+@media screen and (min-width: 576px) {
+  #my-self {
+    height: 500px !important;
+    position: absolute;
+    top: 50%;
+  }
+}
+
+#my_image {
+  max-width: 300px !important;
+  max-height: 300px !important;
+  border-radius: 50%;
+  border: 5px solid #9e4028;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#my_image img {
+  max-width: 300px;
+}
+
+/* 아이콘 anchor 설정 */
+.i_a:link {
+  color: black;
+}
+
+.i_a:active {
+  color: black;
+}
+
+.i_a:visited {
+  color: black;
+}
+
+.i_a:hover {
+  color: black;
+}
+
+/* 아이콘 anchor 설정 */
+
+.icon {
+  font-size: 3rem;
+  padding: 10px;
+}
+
+#profile {
+  font-size: 2rem;
+  color: darkgray;
+}
+
+.impactp {
+  color: #9e4028;
+  font-size: 1.5rem;
+}
+
+#tech {
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+#tech img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: white;
+}
+/* 2페이지 */
+
+/* 3페이지 */
+#portfolio {
+  width: 100vw;
+  height: 100vh;
+  background-color: #9e4028;
+}
+
+.portfolio {
+  position: relative;
+  left: 10%;
+  vertical-align: center;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  box-shadow: 10px 10px 20px 1px #e6a08f;
+  border-radius: 10px;
+  text-align: center;
+  overflow: scroll;
+}
+
+.project_name {
+  color: #9e4028 !important;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.project_contents {
+  padding: 20px;
+  text-align: left;
+}
+
+.ptitle {
+  color: #9e4028;
+  font-size: 1.5rem;
+}
+
+#project_bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.no-image {
+  width: 100%;
+  height: 315px;
+  background-color: black;
+  color: white;
+  font-size: 3rem;
+  line-height: 315px;
+  vertical-align: center;
+}
+/* 3페이지 */
+
+a:hover {
+  text-decoration: none;
+}
+
+.dl_file {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.dl_file span {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #9e4028;
+  color: white;
+}

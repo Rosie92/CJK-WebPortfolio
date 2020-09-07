@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>조정규WebPortfolio</title>
+
+    <!-- jQuery load -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.js"
+      integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery load end -->
+    <!-- vue load -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!-- vue load end -->
+    <!-- bootstrap CSS load -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap CSS load end -->
+
+    <!-- Custom CSS load -->
+    <link rel="stylesheet" href="assets/index.css" />
+    <!-- Custom CSS load end -->
+    <!-- fullpage load -->
+    <link rel="stylesheet" href="assets/fullpage/fullpage.css" />
+    <script type="text/javascript" src="assets/fullpage/fullpage.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#fullpage").fullpage({
+          licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
+          autoScrolling: true,
+          scrollHorizontally: true,
+        });
+      });
+    </script>
+    <!-- fullpage load end -->
+    <!-- Font Awesome load -->
+    <script
+      src="https://kit.fontawesome.com/56dcc4fdd8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome load end -->
+  </head>
+  <body>
+    <div id="fullpage">
+      <div id="mp" class="section">
+        <div id="name">열정으로 먹고사는<br />주니어개발자 조정규입니다</div>
+      </div>
+      <div id="introduce" class="section">
+        <div id="my-self" class="row">
+          <div style="text-align: center;" class="col-sm-6">
+            <div id="my_image">
+              <img src="assets/img/KakaoTalk_20200907_170521351.jpg" />
+            </div>
+            <a class="i_a" href="https://github.com/Rosie92/" target="_blank"
+              ><i class="icon fab fa-github"></i
+            ></a>
+            <a class="i_a" href="https://www.facebook.com/profile.php?id=100003170681575/" target="_blank"
+              ><i class="icon fab fa-facebook"></i
+            ></a>
+          </div>
+          <div id="ms_contents" class="col-sm-6">
+            <p id="profile">#Profile</p>
+            <p class="impactp">조정규 / JeongKyu Cho</p>
+            <p><strong>birth :</strong> 1992.09.22</p>
+            <p><strong>Contact :</strong>
+              <p>010-4186-7415 / 107wjd@naver.com</p>
+            </p>
+            <p>
+              <strong>Graduation :</strong>
+              <p> 2019.03 ~ : 한국폴리텍대학 서울강서캠퍼스 재학</p>
+            </p>
+            <hr />
+            <p class="impactp">Who am I?</p>
+            <p><strong style="color: red;">열정</strong>빼면 시체!</p>
+            <p>한번 빠지면 아주 끝장을 보는 개발자!</p>
+          </div>
+          <div id="tech">
+            <img src="assets/img/img_html.jpg" />
+            <img src="assets/img/css.png" />
+            <img src="assets/img/js.png" />
+            <img src="assets/img/spring.png" />
+            <img src="assets/img/ajax.jpg" />
+            <img src="assets/img/jquery.png" />
+            <img src="assets/img/ec2.png" />
+            <img src="assets/img/mongodb.png" />
+            <img src="assets/img/mysql.png" />
+            <img src="assets/img/oracle.png" />
+          </div>
+        </div>
+      </div>
+      <div id="portfolio" class="section">
+        <span id="project_bottom">프로젝트 제목 클릭 시 코드로 이동</span>
+        <div class="slide">
+          <div class="portfolio">
+            <a target="_blank" href="https://github.com/Rosie92/Puppies-are-excellent"
+              ><p class="project_name">
+                #강아지는_훌륭하다 #견주들을_위한_공간
+              </p></a
+            >
+            <object
+              title="YouTube video player"
+              class="youtube-player"
+              type="text/html"
+              width="100%"
+              height="315"
+              data="//www.youtube.com/embed/xIBlS_5Fr-o"
+              allowFullScreen>
+            </object>
+            <div class="row project_contents">
+              <div class="col-sm-6">
+                <p class="ptitle">프로젝트 설명</p>
+                <span>
+                  “강아지는 훌륭하다”는 강아지를 반려동물로 둔 견주들을 위한 사이트입니다.
+                  실시간 동물 관련 뉴스를 제공하며, 견종백과를 통해 다양한 정보를 제공합니다.
+                  또한, 카카오맵을 통해 강아지 유치원이 있는 곳을 각 지역별 위치 정보로 제공하며,
+                  게시판에서 여러 견주님들끼리 다양한 의견을 주고받을 수 있습니다.
+                  마지막으로, 해당 사이트에서 추천하는 강아지 관련 Youtube 영상을 시청할 수 있습니다.
+                </span>
+              </div>
+              <div class="col-sm-6">
+                <p class="ptitle">적용기술</p>
+                <p>
+                  - 프레임워크 : Spring Framework<br />
+                  - 데이터베이스 : MySQL, MongoDB<br />
+                  - 적용 데이터 : HappyPet 뉴스정보, BeMyPet 견종백과<br />
+                  - 기타 : KakaoLogin API, KakaoMap API, JS, Crawling, jQuery, Ajax, HTML5, Bootstrap<br />
+                  - 클라우드 : AWS EC2
+                </p>
+              </div>
+              <div class="dl_file">
+                <a
+                  href="https://github.com/Rosie92/Puppies-are-excellent/raw/master/1920110033_%EC%A1%B0%EC%A0%95%EA%B7%9C_%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C.pptx"
+                  target="_blank"
+                  ><span>화면설계서</span></a
+                >
+                <a
+                  href="https://github.com/Rosie92/Puppies-are-excellent/raw/master/1920110033%20%EA%B0%9C%EB%B0%9C%EC%82%B0%EC%B6%9C%EB%AC%BC_%EC%A1%B0%EC%A0%95%EA%B7%9C(20-06-02).xlsx"
+                  target="_blank"
+                  ><span>개발산출물</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="portfolio">
+            <a
+              target="_blank"
+              href="https://github.com/Rosie92/BANDMOA"
+              ><p class="project_name">
+                #BandMoA #밴드모아
+              </p></a
+            >
+            <object
+              title="YouTube video player"
+              class="youtube-player"
+              type="text/html"
+              width="100%"
+              height="315"
+              data="//www.youtube.com/embed/APqcJ2zHkt0"
+              allowFullScreen
+            ></object>
+            <div class="row project_contents">
+              <div class="col-sm-6">
+                <p class="ptitle">프로젝트 설명</p>
+                <span
+                  >"밴드모아"는 전국의 모든 뮤지션들을 위한 커뮤니티 공간입니다.<br>
+                  생업과 취미를 떠나 학생, 직장인, 남녀노소 구분 없이 음악을 사랑하는
+                  모든 사람들이 의견을 나누고 정보를 공유할 수 있는 공간을 만들고자 하였습니다
+                 </span
+                >
+              </div>
+              <div class="col-sm-6">
+                <p class="ptitle">적용기술</p>
+                <p>
+                  - 프레임워크 : Spring Framework<br />
+                  - 데이터베이스 : Oracle 11g<br />
+                  - 적용 공공데이터(OpenAPI) : 서울시 공연장 정보<br />
+                  - 기타 : KakaoMap API, JS, jQuery, Ajax, HTML5, Bootstrap<br />
+                </p>
+              </div>
+              <div class="dl_file">
+                <a
+                  href="https://github.com/Rosie92/BANDMOA/raw/master/1920110033%20%EC%A1%B0%EC%A0%95%EA%B7%9C_%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C1.pptx"
+                  target="_blank"
+                  ><span>화면설계서1</span></a
+                >
+                <a
+                href="https://github.com/Rosie92/BANDMOA/raw/master/1920110033%20%EC%A1%B0%EC%A0%95%EA%B7%9C_%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C2.pptx"
+                target="_blank"
+                ><span>화면설계서2</span></a
+                >
+                <a
+                href="https://github.com/Rosie92/BANDMOA/raw/master/1920110033%20%EC%A1%B0%EC%A0%95%EA%B7%9C_%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C3.pptx"
+                target="_blank"
+                ><span>화면설계서3</span></a
+                >
+                <a
+                  href="https://github.com/Rosie92/BANDMOA/raw/master/1920110033%20%EA%B0%9C%EB%B0%9C%EC%82%B0%EC%B6%9C%EB%AC%BC_%EC%A1%B0%EC%A0%95%EA%B7%9C(%EC%B5%9C%EC%A2%85%EB%B3%B8191208)2.xlsx"
+                  target="_blank"
+                  ><span>개발산출물</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- bootstrap JS load -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"
+  ></script>
+  <!-- bootstrap JS load end -->
+</html>
