@@ -12,7 +12,7 @@ body {
 
 /* 1페이지 */
 #mp {
-  background-color: #9e4028;
+  background-color: #752c01;
   color: white;
   font-size: 4rem;
 }
@@ -52,7 +52,7 @@ body {
   max-width: 300px !important;
   max-height: 300px !important;
   border-radius: 50%;
-  border: 5px solid #9e4028;
+  border: 5px solid #752c01;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .impactp {
-  color: #9e4028;
+  color: #752c01;
   font-size: 1.5rem;
 }
 
@@ -113,7 +113,7 @@ body {
 #portfolio {
   width: 100vw;
   height: 100vh;
-  background-color: #9e4028;
+  background-color: #752c01;
 }
 
 .portfolio {
@@ -123,14 +123,14 @@ body {
   width: 80%;
   height: 80%;
   background-color: white;
-  box-shadow: 10px 10px 20px 1px #e6a08f;
+  box-shadow: 10px 10px 20px 1px #e7661c;
   border-radius: 10px;
   text-align: center;
   overflow: scroll;
 }
 
 .project_name {
-  color: #9e4028 !important;
+  color: #752c01 !important;
   padding: 10px;
   font-size: 1.5rem;
 }
@@ -141,7 +141,7 @@ body {
 }
 
 .ptitle {
-  color: #9e4028;
+  color: #752c01;
   font-size: 1.5rem;
 }
 
@@ -178,6 +178,6 @@ a:hover {
   width: 100px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #9e4028;
+  background-color: #752c01;
   color: white;
 }
